@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cork-board {
+  position: relative;
+  background-size: cover;
+  height: 1300px;
+  background-image: url(../img/cork-board.jpg);
+}
+
+.polaroid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.polaroid img {
+  width: 360px;
+}
+
+.dog {
+  position: absolute;
+  left: 49.5%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+
+
+}
